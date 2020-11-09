@@ -7,6 +7,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0 5px;
+  background: #eee;
 }
 
 header, nav, main, section, footer, article, aside {
@@ -41,5 +42,27 @@ nav li a {
   font-size: 1.2em;
   color: rgba(50, 59, 92, 0.781);
   color: #35356e;
+}
+
+article div {
+  margin: 30px 10px;
+}
+
+article div h2, article div h3 {
+  color: #00aeff;
+  margin-bottom: 10px;
+}
+
+article div h2 {
+  color: #00aeff;
+  margin-bottom: 10px;
+}
+
+article div p {
+  text-align: justify;
+}
+
+article div li {
+  list-style: none;
 }
 /*# sourceMappingURL=about.css.map */

@@ -5,7 +5,7 @@
 body {
     box-sizing: border-box;
     margin: 0 5px;
-    // background: #eee;
+    background: #eee;
 }
 header, nav, main, section, footer, article, aside {
     display: block;
@@ -42,6 +42,29 @@ nav {
             color: rgb(53, 53, 110);
         }
     }
+}
 
-   
+article {
+
+    div {
+        margin: 30px 10px;
+
+        h2, h3 {
+            color: rgb(0, 174, 255);            
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: rgb(0, 174, 255);            
+            margin-bottom: 10px;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        li {
+            list-style: none;
+        }
+    }   
 }

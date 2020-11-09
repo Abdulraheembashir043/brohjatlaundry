@@ -7,6 +7,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0 5px;
+  background: #eee;
 }
 
 header, nav, main, section, footer, article, aside {
@@ -41,5 +42,26 @@ nav li a {
   font-size: 1.2em;
   color: rgba(50, 59, 92, 0.781);
   color: #35356e;
+}
+
+article h2 {
+  margin: 20px 0;
+  color: #00aeff;
+  text-transform: uppercase;
+}
+
+article .service h3 {
+  color: #00aeff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+article .service img {
+  display: block;
+  margin: 0 auto;
+}
+
+article .second, article .third {
+  margin: 30px 0;
 }
 /*# sourceMappingURL=services.css.map */

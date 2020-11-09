@@ -45,7 +45,7 @@ nav li a {
 }
 
 article {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 article h2 {
@@ -60,5 +60,6 @@ article h3 {
 
 article p {
   margin-bottom: 20px;
+  font-style: italic;
 }
 /*# sourceMappingURL=brohjat.css.map */
